@@ -1,9 +1,11 @@
 body {
-    padding: 0;
     margin: 0;
-   }
-   html, body, #weathermap {
-    height: 100%;
-    width: 100%;
-   }
-   
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header { padding: 10px 16px; }
+h1 { font-size: 22px; margin: 0 0 6px; }
+p { margin: 4px 0; font-size: 14px; }
+#weathermap { flex: 1; min-height: 300px; }
